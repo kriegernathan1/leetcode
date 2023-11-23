@@ -19,7 +19,6 @@ function isValidSudoku(board: string[][]): boolean {
       const boardCol = Math.floor(j / 3);
       const boardNumber = boardRow * 3 + boardCol;
 
-      if (boardNumber === 1) console.log(boardMaps[boardNumber]);
       if (
         rowMaps[i].get(boardVal) ||
         colMaps[j].get(boardVal) ||
